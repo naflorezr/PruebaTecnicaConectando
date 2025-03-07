@@ -1,0 +1,9 @@
+
+Backend/.vs/PruebaTecnica/v17/.suo
+*.json
+*.ldf
+Database/PruebaTecnicaConectando.mdf
+*.bin
+*.vsidx
+*.v2
+*.config

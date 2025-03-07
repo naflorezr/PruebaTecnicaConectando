@@ -237,7 +237,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "idCategoria": {
+          "categoriaId": {
             "type": "integer",
             "format": "int32"
           },

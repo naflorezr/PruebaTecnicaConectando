@@ -1,0 +1,25 @@
+<div class="container mx-auto flex mt-10">
+  <div class="w-1/5 mr-4">
+    <ul class="flex flex-col font-medium text-gray-700 mb-5">
+      <li>
+        <a class="block bg-sky-100 rounded py-1 px-3 text-sky-700"
+          ><fa-icon [icon]="faTrello"></fa-icon> Productos</a
+        >
+      </li>
+      <li>
+        <a routerLink="/app/categoria/" class="block py-1 px-3"
+          ><fa-icon [icon]="faBox"></fa-icon> Categorias</a
+        >
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="w-full">
+    <h1 class="text-lg font-bold mb-4"><fa-icon [icon]="faClock"></fa-icon> Recently viewed</h1>
+    <div class="grid grid-cols-4 gap-4"  *ngFor="let column of columns">
+      <app-product [id]="column.id" [nombre]="column.nombre" [cantidad]="column.cantidad" [precio]="column.precio" [imagen]="column.imagen"></app-product>
+      <!-- <a routerLink="" class="w-full bg-sky-700 px-4 py-2 rounded text-black font-bold h-24"></a> -->
+    </div>
+  </div>
+</div>
