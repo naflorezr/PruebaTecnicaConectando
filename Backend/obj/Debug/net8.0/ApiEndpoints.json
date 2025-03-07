@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "PruebaTecnica.Controllers.CategoriaController",
+    "Method": "CreateCategoria",
+    "RelativePath": "Categoria/CreateCategoria/CreateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "PruebaTecnica.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.CategoriaController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "Categoria/DeleteCategoria/DeleteCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.CategoriaController",
+    "Method": "GetCategorias",
+    "RelativePath": "Categoria/GetCategorias/GetCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.CategoriaController",
+    "Method": "UpdateCategoria",
+    "RelativePath": "Categoria/UpdateCategoria/UpdateCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "PruebaTecnica.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.ProductoController",
+    "Method": "CreateProductos",
+    "RelativePath": "Producto/CreateProductos/CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "PruebaTecnica.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.ProductoController",
+    "Method": "DeleteProductos",
+    "RelativePath": "Producto/DeleteProductos/DeleteProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.ProductoController",
+    "Method": "GetProductos",
+    "RelativePath": "Producto/GetProductos/GetProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica.Controllers.ProductoController",
+    "Method": "UpdateProductos",
+    "RelativePath": "Producto/UpdateProductos/UpdateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "PruebaTecnica.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
